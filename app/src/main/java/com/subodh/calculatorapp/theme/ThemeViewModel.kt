@@ -30,7 +30,8 @@ class ThemeViewModel(context: Context) : ViewModel() {
 
     private fun loadThemePreference() {
         viewModelScope.launch {
-            val darkTheme = dataStore.data.first()[DARK_THEME_KEY] == true
+            val preferences = dataStore.data.first()
+            val darkTheme = preferences[DARK_THEME_KEY] ?: false
             _isDarkTheme.value = darkTheme
         }
     }
