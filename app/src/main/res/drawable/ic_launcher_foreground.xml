@@ -21,31 +21,32 @@
         android:pathData="M24,32 L84,32 L84,42 L24,42 Z"/>
     
     <!-- Button grid - Row 1 -->
-    <circle android:fillColor="#F5F5F5" android:cx="30" android:cy="58" android:r="5"/>
-    <circle android:fillColor="#F5F5F5" android:cx="46" android:cy="58" android:r="5"/>
-    <circle android:fillColor="#E8E8E8" android:cx="62" android:cy="58" android:r="5"/>
-    <circle android:fillColor="#E8E8E8" android:cx="78" android:cy="58" android:r="5"/>
+    <path android:fillColor="#F5F5F5" android:pathData="M30,58 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#F5F5F5" android:pathData="M46,58 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#E8E8E8" android:pathData="M62,58 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#E8E8E8" android:pathData="M78,58 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
     
     <!-- Button grid - Row 2 -->
-    <circle android:fillColor="#FFFFFF" android:cx="30" android:cy="70" android:r="5"/>
-    <circle android:fillColor="#FFFFFF" android:cx="46" android:cy="70" android:r="5"/>
-    <circle android:fillColor="#FFFFFF" android:cx="62" android:cy="70" android:r="5"/>
-    <circle android:fillColor="#E8E8E8" android:cx="78" android:cy="70" android:r="5"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M30,70 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M46,70 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M62,70 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#E8E8E8" android:pathData="M78,70 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
     
     <!-- Button grid - Row 3 -->
-    <circle android:fillColor="#FFFFFF" android:cx="30" android:cy="82" android:r="5"/>
-    <circle android:fillColor="#FFFFFF" android:cx="46" android:cy="82" android:r="5"/>
-    <circle android:fillColor="#FFFFFF" android:cx="62" android:cy="82" android:r="5"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M30,82 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M46,82 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M62,82 m-5,0 a5,5 0 1,1 10,0 a5,5 0 1,1 -10,0"/>
     
     <!-- Equals button (accent color, larger) -->
     <path
         android:fillColor="#7C4DFF"
         android:pathData="M70,76 L86,76 A4,4 0 0,1 90,80 L90,88 A4,4 0 0,1 86,92 L70,92 A4,4 0 0,1 66,88 L66,80 A4,4 0 0,1 70,76 Z"/>
     
-    <!-- Equals sign on button -->
+    <!-- Equals sign on button (using filled rectangles) -->
     <path
-        android:strokeColor="#FFFFFF"
-        android:strokeWidth="2"
-        android:strokeLinecap="round"
-        android:pathData="M74,82 L82,82 M74,86 L82,86"/>
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,81 L82,81 L82,83 L74,83 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,85 L82,85 L82,87 L74,87 Z"/>
 </vector>
